@@ -804,71 +804,71 @@ header .cart-icon {
 /* Base Styles for Mobile Devices */
 @media (max-width: 768px) {
     body {
-        font-size: 14px; /* Adjust font size for better readability */
-        padding: 10px; /* Add some padding to the body */
+        font-size: 14px; 
+        padding: 10px; 
     }
 
     /* Header Styles */
     header {
         display: flex;
-        flex-direction: column; /* Stack elements vertically */
-        align-items: center; /* Center the elements */
+        flex-direction: column; 
+        align-items: center; 
     }
 
     .logo {
         width: 80%; /* Make the logo responsive */
-        max-width: 150px; /* Limit the max width for better visibility */
+        max-width: 150px; 
     }
 
     .search-container {
         width: 100%;
-        margin-top: 10px; /* Add space above the search box */
+        margin-top: 10px; 
     }
 
     .search-button {
-        padding: 10px 15px; /* Increase padding for touch-friendly interaction */
-        font-size: 16px; /* Larger font size for readability */
+        padding: 10px 15px; 
+        font-size: 16px; 
     }
 
     /* Navigation Links */
     nav ul {
-        flex-direction: column; /* Stack navigation links vertically */
+        flex-direction: column; 
         padding: 0;
         margin: 0;
     }
 
     nav ul li {
-        margin: 10px 0; /* Space between navigation links */
+        margin: 10px 0; 
     }
 
     /* Product Grid */
     .product-grid {
-        display: flex; /* Use flexbox for horizontal scrolling */
-        overflow-x: auto; /* Allow horizontal scrolling */
-        padding: 10px 0; /* Add padding around the product grid */
-        scroll-snap-type: x mandatory; /* Enable snap scrolling */
+        display: flex; 
+        overflow-x: auto; 
+        padding: 10px 0; 
+        scroll-snap-type: x mandatory; 
     }
 
     .product-card {
-        min-width: 150px; /* Set minimum width for product cards */
-        margin-right: 10px; /* Space between product cards */
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add subtle shadow for depth */
-        border-radius: 8px; /* Rounded corners */
-        scroll-snap-align: start; /* Snap alignment for product cards */
-        flex: none; /* Prevent flex items from shrinking */
+        min-width: 150px; 
+        margin-right: 10px; 
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+        border-radius: 8px; 
+        scroll-snap-align: start; 
+        flex: none; 
     }
 
     /* Footer Styles */
     footer {
-        padding: 20px 0; /* Add padding to footer */
-        text-align: center; /* Center the footer text */
+        padding: 20px 0; 
+        text-align: center; 
     }
 
     /* Adjust Button Styles */
     .btn {
-        width: 100%; /* Full-width buttons for easier tapping */
-        padding: 15px; /* Increase padding for touch */
-        font-size: 16px; /* Larger font size for readability */
-        margin-top: 10px; /* Space above buttons */
+        width: 100%; 
+        padding: 15px; 
+        font-size: 16px; 
+        margin-top: 10px; 
     }
 }
