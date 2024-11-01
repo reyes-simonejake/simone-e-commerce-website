@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My E-Commerce Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts: Oswald -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap">
+</head>
+<body>
+    <!-- Upper header with signup, login, notification, and help -->
+    <div class="upper-header">
+        <a href="#" id="login-link">Login</a>
+        <a href="#" id="signup-link">Sign Up</a>
+        <a href="#notification">Notification</a>
+        <a href="#help">Help</a>
+    </div>
+
+    <!-- Main header with logo, navigation buttons, and search bar -->
+    <header>
+        <div class="logo">
+            <h1>SparkMart</h1>
+        </div>
+        <nav>
+            <a href="men.html">Men</a>
+            <a href="women.html">Women</a>
+            <a href="kids.html">Kids</a>
+            <a href="cosmetics.html">Cosmetics</a>
+            <a href="about.html">About</a>
+        </nav>
+        
+        <div class="search-bar">
+            
+            <input type="text" placeholder="Search...">
+            <button class="search-button">Search</button>
+            <a href="" style="text-decoration: none; color: inherit;">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </a>
+        </div>
+    </header>
+    
+    
+    
+    
+    <!------------------------login  form---------------------->
+    <div id="auth-container">
+        <div id="login-form" class="auth-form">
+          <!-- Login form HTML here -->
+          <h2>Login to SparkMart</h2>
+          <form action="#" method="POST">
+            <div class="input-group">
+              <i class="fas fa-phone-alt"></i>
+              <input type="text" name="phone" placeholder="Enter your cellphone number" required>
+            </div>
+            <div class="input-group">
+              <i class="fas fa-lock"></i>
+              <input type="password" name="password" placeholder="Enter your password" required>
+            </div>
+            <button type="submit" class="login-btn">Login</button>
+          </form>
+          <p>Or login with</p>
+          <div class="social-login">
+            <a href="#" class="facebook"><i class="fab fa-facebook-f"></i> Facebook</a>
+            <a href="#" class="email"><i class="fas fa-envelope"></i> Email</a>
+          </div>
+        </div>
+      
+        <div id="signup-form" class="auth-form" style="display:none;">
+          <!-- Signup form HTML here -->
+          <h2>Sign Up for SparkMart</h2>
+          <form action="#" method="POST">
+            <div class="input-group">
+              <i class="fas fa-phone-alt"></i>
+              <input type="text" name="phone" placeholder="Enter your cellphone number" required>
+            </div>
+            <div class="input-group">
+              <i class="fas fa-lock"></i>
+              <input type="password" name="password" placeholder="Create a password" required>
+            </div>
+            <button type="submit" class="signup-btn">Sign Up</button>
+          </form>
+          <p>Or sign up with</p>
+          <div class="social-signup">
+            <a href="#" class="facebook"><i class="fab fa-facebook-f"></i> Facebook</a>
+            <a href="#" class="email"><i class="fas fa-envelope"></i> Email</a>
+          </div>
+        </div>
+      </div>      
+    <!-- Banner with image slider and additional image -->
+    <div class="banner">
+        <div class="slider">
+            <div class="slides">
+                <img src="images/i1.jpg" alt="Image 1">
+                <img src="images/i2.jpg" alt="Image 2">
+                <img src="images/i3.jpg" alt="Image 3">
+                <img src="images/i4.jpg" alt="Image 4">
+                <img src="images/i5.jpg" alt="Image 5">
+            </div>
+        </div>
+        <div class="right-image">
+            <img src="images/i6.jpg" alt="Right Side Image">
+        </div>
+    </div>
+
+    <!-- Sample Products Section -->
+    <div class="sample-products">
+        <h2>Sample Products</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="images/i7.jpg" alt="Product 1">
+                <p class="product-name">Kids Top</p>
+                <p class="price">₱300.00</p>
+                <div class="rating">
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/i8.jpg" alt="Product 2">
+                <p class="product-name">Mens Polo</p>
+                <p class="price">₱450.00</p>
+                <div class="rating">
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/i11.jpg" alt="Product 3">
+                <p class="product-name">Mens Formal Shoes</p>
+                <p class="price">₱550.00</p>
+                <div class="rating">
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/jp2.jpg" alt="Product 4">
+                <p class="product-name">Womens Bracelet</p>
+                <p class="price">₱980.00</p>
+                <div class="rating">
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                </div>
+            </div>
+            <div class="product">
+                <img src="images/wap9.jpg" alt="Product 5">
+                <p class="product-name">Mens Watch</p>
+                <p class="price">₱480.00</p>
+                <div class="rating">
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <!--ADDITONAL SAMPLE PRODUCTS-->
+<div class="sample-products">
+    <div class="product-grid">
+        <div class="product">
+            <img src="images/kp5.jpg" alt="Product 1">
+            <p class="product-name">Mickey Mouse Top</p>
+            <p class="price">₱100.00</p>
+            <div class="rating">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+            </div>
+        </div>
+        <div class="product">
+            <img src="images/mp5.jpg" alt="Product 2">
+            <p class="product-name">Mens Polo</p>
+            <p class="price">₱250.00</p>
+            <div class="rating">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+            </div>
+        </div>
+        <div class="product">
+            <img src="images/ip2.jpg" alt="Product 3">
+            <p class="product-name">Mens Sando </p>
+            <p class="price">₱500.00</p>
+            <div class="rating">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+            </div>
+        </div>
+        <div class="product">
+            <img src="images/jp6.jpg" alt="Product 4">
+            <p class="product-name">Womens Accesories</p>
+            <p class="price">₱790.00</p>
+            <div class="rating">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+            </div>
+        </div>
+        <div class="product">
+            <img src="images/wp9.jpg" alt="Product 5">
+            <p class="product-name">Womens Top</p>
+            <p class="price">₱300.00</p>
+            <div class="rating">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+            </div>
+        </div>
+        
+    </div>
+</div>
+  <!-- Top Brands Slider Section -->
+<div class="top-brands-section">
+    <h2>The Top Brands in Our Company</h2>
+    <div class="top-brands-slider">
+        <button class="arrow left-arrow">&lt;</button>
+        <div class="top-brands-slider-container">
+            <div class="top-brands-slider-wrapper">
+                <!-- Original images -->
+                <img src="images/b1.png" alt="Brand 1">
+                <img src="images/b2.png" alt="Brand 2">
+                <img src="images/b3.png" alt="Brand 3">
+                <img src="images/b4.png" alt="Brand 4">
+                <img src="images/b5.jpg" alt="Brand 5">
+                <!-- Duplicated images for infinite effect -->
+                 <img src="images/b1.png" alt="Brand 1">
+                 <img src="images/b2.png" alt="Brand 2">
+                 <img src="images/b3.png" alt="Brand 3">
+                 <img src="images/b4.png" alt="Brand 4">
+                 <img src="images/b5.jpg" alt="Brand 5">
+            </div>
+        </div>
+        <button class="arrow right-arrow">&gt;</button>
+    </div>
+</div>
+
+
+<!-- Footer Section -->
+<footer>
+    <div class="footer-container">
+        <div class="footer-column">
+            <h3>Follow Us</h3>
+            <a href="#"><i class="fab fa-facebook-f"></i> Facebook</a>
+            <a href="#"><i class="fas fa-envelope"></i> Gmail</a>
+            <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+        </div>
+        <div class="footer-column">
+            <h3>Contact Us</h3>
+            <p>Email: SparkMart@gmail.com</p>
+            <p>Phone: +123 456 7890</p>
+            <p>Address: 123 E-commerce St, Online City</p>
+        </div>
+        <div class="footer-column">
+            <h3>Payment Methods</h3>
+            <p>Gcash Payment</p>
+            <p>Bank Transfer</p>
+            <p>Cash on Delivery</p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 SparkMart. All Rights Reserved.</p>
+    </div>
+</footer>
+    <script src="script.js"></script>
+</body>
+</html>
